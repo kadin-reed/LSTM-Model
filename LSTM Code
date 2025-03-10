@@ -158,7 +158,7 @@ def load_data(filepath):
 
 
 def main():
-    filepath = r'C:\Users\kadin\OneDrive\Desktop\AllData.txt'
+    filepath = 'AllData.txt'
     data = load_data(filepath)
     
     
