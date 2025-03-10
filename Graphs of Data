@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the data
-data = pd.read_csv(r'C:\Users\kadin\OneDrive\Desktop\AllData.txt')
+data = pd.read_csv(r'AllData.txt')
 
 # Remove rows with missing Energy Output
 data = data.dropna(subset=['Energy Output'])
